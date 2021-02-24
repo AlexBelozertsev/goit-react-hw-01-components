@@ -1,0 +1,21 @@
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.onLine {
+  composes: status;
+  background-color: teal;
+}
+.offLine {
+  composes: status;
+  background-color: tomato;
+}
+.avatar {
+  margin: 0px 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  margin: auto 0px;
+}

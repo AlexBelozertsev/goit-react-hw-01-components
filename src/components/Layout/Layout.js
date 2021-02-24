@@ -4,8 +4,9 @@ import Container from '../Container/Container';
 
 const Layout = ({ children }) => (
   <>
-    <AppBar />
+    <AppBar text="React. HomeWork-1. Components." />
     <Container>{children}</Container>
+    <AppBar text="" />
   </>
 );
 

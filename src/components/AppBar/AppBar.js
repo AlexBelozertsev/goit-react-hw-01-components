@@ -1,10 +1,11 @@
 import React from 'react';
 import './AppBar.css';
-import Logo from '../Logo';
+import Header from '../Header';
 
-const AppBar = () => (
-  <header className="header">
-    <Logo text="React. HomeWork-1. Components." />
+const AppBar = ({ text }) => (
+  <header className="AppBar">
+    {/* <Header text="React. HomeWork-1. Components." /> */}
+    <Header text={text} />
   </header>
 );
 

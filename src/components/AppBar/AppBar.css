@@ -1,6 +1,6 @@
-.header {
+.AppBar {
   display: flex;
   justify-content: center;
   min-height: 80px;
-  background-color: palegoldenrod;
+  background-color: rgb(190, 215, 230);
 }
